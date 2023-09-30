@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="course-header">
+
+        <nav>
+            <a href="index.html"><img src="MRLOGO1.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Courses Offered By Us</h1>
+        </div>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum nihil totam repellendus nostrum doloremque
+            corrupti quae consectetur quas quidem aliquam, modi expedita nobis neque repellat, accusantium error optio?
+            Commodi, delectus!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil quod nam consequatur culpa
+                    ipsam soluta, hic veniam impedit odit, corrupti quibusdam aliquid possimus sapiente placeat debitis.
+                    Ad quasi nostrum, corrupti quo optio tempora!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil quod nam consequatur culpa
+                    ipsam soluta, hic veniam impedit odit, corrupti quibusdam aliquid possimus sapiente placeat debitis.
+                    Ad quasi nostrum, corrupti quo optio tempora!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil quod nam consequatur culpa
+                    ipsam soluta, hic veniam impedit odit, corrupti quibusdam aliquid possimus sapiente placeat debitis.
+                    Ad quasi nostrum, corrupti quo optio tempora!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
